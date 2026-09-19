@@ -1,0 +1,23 @@
+{
+  "base_time": "2010-01-23T12:18:00",
+  "environment": {
+    "implementation": "CPython",
+    "machine": "arm64",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "processor": "arm",
+    "python": "3.13.14"
+  },
+  "expr": "*/1 * * * *",
+  "iterations": 10000,
+  "median_seconds": 0.05487,
+  "min_seconds": 0.052601,
+  "repeats": 5,
+  "samples_seconds": [
+    0.055741,
+    0.054607,
+    0.056486,
+    0.05487,
+    0.052601
+  ],
+  "tolerance": 1.15
+}
