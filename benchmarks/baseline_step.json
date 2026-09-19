@@ -1,0 +1,20 @@
+{
+  "description": "absolute-time record for '*/1 * * * *' x 10000 get_next() forward steps (informational; pass/fail uses the interleaved comparison against benchmarks/baseline_croniter.py)",
+  "iterations": 10000,
+  "repeat": 5,
+  "best_seconds": 0.049645334016531706,
+  "runs": [
+    0.05020341696217656,
+    0.04994129203259945,
+    0.049645334016531706,
+    0.050490541965700686,
+    0.05100654193665832
+  ],
+  "environment": {
+    "python": "3.13.14",
+    "implementation": "CPython",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "processor": "arm"
+  }
+}
